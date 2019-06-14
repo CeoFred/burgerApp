@@ -1,7 +1,7 @@
-## :rocket :rocket :rocket :rocket :rocket :rocket :rocket :rocket :rocket 
+:rocket :rocket :rocket :rocket :rocket :rocket :rocket :rocket :rocket 
 
 
-![App Logo](/src/assets/images.logo.png)
+![App Logo](/src/assets/images/logo.png)
 
 # THE COMPLETE BURGER APP
 Burger app is a full app built with react, here we touched all aspects of react which includes
