@@ -3,7 +3,7 @@ import React,{Component} from 'react';
 import {connect} from 'react-redux';
 
 
-import Aux from '../Aux';
+import Auxi from '../Auxi';
 import classes from './Layout.css'
 import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
 import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
@@ -27,21 +27,21 @@ class layout extends Component{
 
     render(){
         return(
-            <Aux>
+            <Auxi>
             <Toolbar auth={this.props.token} DrawerToogleClick={this.sideDrawerToogleHandler}/>
                 <SideDrawer auth={this.props.token} open={this.state.showSideDrawer}
                  closed={this.SideDrawerCloseHandler}/>
                     <main className={classes.Content}>
                         {this.props.children}
                     </main>
-            </Aux>
+            </Auxi>
     
             );
         
     }
         
 }
-    // higher order component Aux used
+    // higher order component Auxi used
  
 const mapStateToProps = state => {
     return {

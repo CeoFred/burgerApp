@@ -21,7 +21,7 @@ the following
 > open localhost:3000 on your browser and volla build your burger and order
 > Wait for your burger from firebase :tada
 
-###### Note , had issues with adding Aux.js file to staging on windows. If you getan error that has to do with the aux.js file missing please change it to auxi.js and you should be good to go. :+1
+###### Note , had issues with adding Auxi.js file to staging on windows. If you getan error that has to do with the Auxi.js file missing please change it to Auxi.js and you should be good to go. :+1
 
 ###### App was built with create react app ,but ejected to make use of css modules for classnames# burgerApp
 # burgerApp
